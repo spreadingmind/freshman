@@ -1,9 +1,26 @@
-import sys
+'''This is a task from HackerRank. traverse each level of the tree from the root downward, and 
+process the nodes at each level from left to right in order to get a level-order traversal.
+Sample Input
 
+6
+3
+5
+4
+7
+2
+1
+
+Sample Output
+
+3 2 5 1 4 7 
+
+
+'''
 class Node:
     def __init__(self,data):
         self.right=self.left=None
         self.data = data
+        
 class Solution:
     def insert(self,root,data):
         if root==None:
