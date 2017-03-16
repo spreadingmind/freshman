@@ -1,9 +1,11 @@
+
+'''
+Task: determine whether a string is a palindrom using stack and queue.
+'''
+
 from collections import deque
-'''A void pushCharacter(char ch) method that pushes a character onto a stack.
-A void enqueueCharacter(char ch) method that enqueues a character in the  instance
-variable.
-A char popCharacter() method that pops and returns the character at the top of the  instance variable.
-A char dequeueCharacter() method that dequeues and returns the first character in the  instance variable.'''
+
+
 class Solution(list):
     def __init__(self):
         self.queue = []
@@ -49,7 +51,7 @@ else:
 def compare(stack, queue):
     queue = deque(queue)
     isPalindrom = True
-    for i in range(len(stack)//2):   #why len/2 in hackerrank code?
+    for i in range(len(stack)//2):  
         if queue.popleft() != stack.pop():
             isPalindrom = False
             break
