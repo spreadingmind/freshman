@@ -116,3 +116,4 @@ def isinherence(query):
                 print ('No')
     
 isinherence(queryList)
+
