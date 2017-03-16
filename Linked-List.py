@@ -2,13 +2,13 @@
 Task:
 Input Format
 
-The <i>insert function</i> has parameters: a pointer to a Node named <i>head</i>, and an integer value,<i>data</i>.
-The constructor for Node has 1 parameter: an integer value for the <i>data </i>field.
+The insert function has parameters: a pointer to a Node named head, and an integer value, data.
+The constructor for Node has 1 parameter: an integer value for the data field.
 You do not need to read anything from stdin.
 
 Output Format
 
-Your <i>insert function</i> should return a reference to the node of the linked list. 
+Your insert function should return a reference to the node of the linked list. 
 '''
 
 
