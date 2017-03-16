@@ -1,5 +1,4 @@
 
-import sys
 
 #Bulding a 2d-array with all numbers
 # arr = []
