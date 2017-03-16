@@ -14,7 +14,6 @@ def bubbleSwap(array):
 
 print (bubbleSwap(test_array))
 
-#test  = [1,2,3]
 def bubbleSwapBetter(array):
     count = n-1
     exchange = True
